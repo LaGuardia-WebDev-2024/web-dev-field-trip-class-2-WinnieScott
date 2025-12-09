@@ -6,15 +6,42 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Chewy&display=swap" rel="stylesheet">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Funnel+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Funnel+Sans:ital,wght@0,300..800;1,300..800&family=Nabla&display=swap" rel="stylesheet">
+    
     <style>
+
+.funnel-sans-<uniquifier> {
+  font-family: "Funnel Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+
+.nabla-<uniquifier> {
+  font-family: "Nabla", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "EDPT" 100,
+    "EHLT" 12;
+}
       body {
         background-image: url("https://images.rawpixel.com/image_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTA1L3BmLXMxMTMtYWstNTEyMy1zcy0wMi5qcGc.jpg");
       }
       h1 {
+        color:gold;
         font-family: "Chewy", system-ui;
         text-align: center;
         font-size: 70px;
-        color: darkblue;
+        
       }
       h2 {
         font-family: "Chewy", system-ui;
@@ -44,6 +71,19 @@
         width: 30%;
         border-radius: 10px;
       }
+
+      #name{
+        color:aqua ;
+      }
+
+      #title {color:rgb(102, 75, 201) ;
+      font-family: "Funnel Sans", sans-serif; 
+      }
+       
+      
+      #Faveriote-Subject{
+        font-family: "Nabla", system-ui;
+        background-color:lawngreen;
     </style>
   </head>
   <body>
@@ -52,38 +92,38 @@
     <div class="us">
       <div class="lag">
         <h2>LaGuardia Student</h2>
-        <p><b>First Name: </b> Jocelyn</p>
+        <p><b>First Name: </b> winnie</p>
         <p><b>Favorite Subject: </b>Web Development</p>
         <center>
           <img
             src="https://mshallwebdevelopment.wordpress.com/wp-content/uploads/2024/05/cropped-2023_webdevlogo_transpnoyear.png?w=1024"
           />
         </center>
-        <p><b>Favorite Movie: </b>Moana</p>
+        <p><b>Favorite Movie: </b>surfs up</p>
         <center>
           <img
-            src="https://lumiere-a.akamaihd.net/v1/images/p_moana_20530_214883e3.jpeg?region=0%2C0%2C540%2C810"
+            src="https://static.wikia.nocookie.net/surfs-up/images/d/d4/Reggie.png/revision/latest/thumbnail/width/360/height/360?cb=20170503185605"
           />
         </center>
-        <p><b>Favorite Book: </b>The Bad Guys</p>
+        <p><b>Favorite Book: </b>who let the pigeon drive the bus</p>
         <center>
-          <img src="https://m.media-amazon.com/images/I/91GCdFWzH-L.jpg" />
+          <img src="https://npr.brightspotcdn.com/dims4/default/02cfbf2/2147483647/strip/true/crop/472x500+0+0/resize/880x932!/quality/90/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F7d%2F4c%2Fad087ca04971a331c07bb4c334f4%2Fpigeon-fumedr.png" />
         </center>
       </div>
       <div class="ps199">
-        <h2>PS 199 Student</h2>
-        <p><b>First Name: </b> ****Name**** </p>
-        <p><b>Favorite Subject: </b> ****Subject****</p>
+        <h2 id="title">PS 199 Student</h2>
+        <p><b>First Name: </b> <span id="name">Saneesh</span> </p>
+        <p><b><span id="Faveriote-Subject">Favorite Subject:</span> </b> Technology</p>
         <center>
-          <img src="" />
+          <img src="https://cdn.britannica.com/77/170477-050-1C747EE3/Laptop-computer.jpg" />
         </center>
-        <p><b>Favorite Movie: </b> ****Movie****</p>
+        <p><b>Favorite Movie:Harry potter </b> </p>
         <center>
-          <img src="" />
+          <img src="https://media.posterstore.com/site_images/68631db092c536b9cc92b06f_775081888_WB0101-5.jpg?auto=compress%2Cformat&fit=max&w=3840" />
         </center>
-        <p><b>Favorite Book: </b> ****Book****</p>
+        <p><b>Favorite game : </b> <span id="Videogames">Video games</span></p>
         <center>
-          <img src="" />
+          <img src="https://m.media-amazon.com/images/I/71ULfEFQV9L._AC_UF894,1000_QL80_.jpg" />
         </center>
       </div>
     </div>
